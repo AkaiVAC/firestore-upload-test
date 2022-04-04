@@ -245,7 +245,7 @@ packages:
       '@firebase/logger': 0.3.2
       '@firebase/util': 1.5.1
       '@firebase/webchannel-wrapper': 0.6.1
-      '@grpc/grpc-js': 1.5.10
+      '@grpc/grpc-js': 1.6.1
       '@grpc/proto-loader': 0.6.9
       node-fetch: 2.6.7
       tslib: 2.3.1
@@ -465,8 +465,8 @@ packages:
     resolution: {integrity: sha512-9FqhNjKQWpQ3fGnSOCovHOm+yhhiorKEqYLAfd525jWavunDJcx8rOW6i6ozAh+FbwcYMkL7b+3j4UR/30MpoQ==}
     dev: false
 
-  /@grpc/grpc-js/1.5.10:
-    resolution: {integrity: sha512-++oAubX/7rJzlqH0ShyzDENNNDHYrlttdc3NM40KlaVQDcgGqQknuPoavmyTC+oNUDyxPCX5dHceKhfcgN3tiw==}
+  /@grpc/grpc-js/1.6.1:
+    resolution: {integrity: sha512-ix3rQS64rKL1s6CfIaRgnts+RNYZZ2NaYyTK7iimai6an/0GGDbukzy990hJ5vtKHjhaqJxJMB6Qq7BMZ0zZSQ==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.6.9
@@ -715,8 +715,8 @@ packages:
     resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
     dev: false
 
-  /jszip/3.7.1:
-    resolution: {integrity: sha512-ghL0tz1XG9ZEmRMcEN2vt7xabrDdqHHeykgARpmZ0BiIctWxM47Vt63ZO2dnp4QYt/xJVLLy5Zv1l/xRdh2byg==}
+  /jszip/3.8.0:
+    resolution: {integrity: sha512-cnpQrXvFSLdsR9KR5/x7zdf6c3m8IhZfZzSblFEHSqBaVwD2nvJ4CuCKLyvKvwBgZm08CgfSoiTBQLm5WW9hGw==}
     dependencies:
       lie: 3.3.0
       pako: 1.0.11
@@ -849,7 +849,7 @@ packages:
     resolution: {integrity: sha512-bcrwFPRax8fifRP60p7xkWDGSJJoMkPAzufMlk5K2NyLPht/YZzR2WcIk1+3gR8VOCLlst1P2PI+MXACaFzpIw==}
     engines: {node: '>= 10.15.0'}
     dependencies:
-      jszip: 3.7.1
+      jszip: 3.8.0
       rimraf: 3.0.2
       tmp: 0.2.1
       ws: 8.5.0
@@ -862,7 +862,7 @@ packages:
     resolution: {integrity: sha512-Fr9e9LC6zvD6/j7NO8M1M/NVxFX67abHcxDJoP5w2KN/Xb1SyYLjMVPGgD14U2TOiKe4XKHf42OmFw9g2JgCBQ==}
     engines: {node: '>= 10.15.0'}
     dependencies:
-      jszip: 3.7.1
+      jszip: 3.8.0
       tmp: 0.2.1
       ws: 8.5.0
     transitivePeerDependencies:
