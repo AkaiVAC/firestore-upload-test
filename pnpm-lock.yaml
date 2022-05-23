@@ -473,7 +473,7 @@ packages:
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.6.12
-      '@types/node': 17.0.33
+      '@types/node': 17.0.35
     dev: false
 
   /@grpc/proto-loader/0.6.12:
@@ -484,7 +484,7 @@ packages:
       '@types/long': 4.0.2
       lodash.camelcase: 4.3.0
       long: 4.0.0
-      protobufjs: 6.11.2
+      protobufjs: 6.11.3
       yargs: 16.2.0
     dev: false
 
@@ -535,8 +535,8 @@ packages:
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
     dev: false
 
-  /@types/node/17.0.33:
-    resolution: {integrity: sha512-miWq2m2FiQZmaHfdZNcbpp9PuXg34W5JZ5CrJ/BaS70VuhoJENBEQybeiYSaPBRNq6KQGnjfEnc/F3PN++D+XQ==}
+  /@types/node/17.0.35:
+    resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==}
     dev: false
 
   /ansi-regex/5.0.1:
@@ -722,13 +722,13 @@ packages:
     resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
     dev: false
 
-  /jszip/3.9.1:
-    resolution: {integrity: sha512-H9A60xPqJ1CuC4Ka6qxzXZeU8aNmgOeP5IFqwJbQQwtu2EUYxota3LdsiZWplF7Wgd9tkAd0mdu36nceSaPuYw==}
+  /jszip/3.10.0:
+    resolution: {integrity: sha512-LDfVtOLtOxb9RXkYOwPyNBTQDL4eUbqahtoY6x07GiDJHwSYvn8sHHIw8wINImV3MqbMNve2gSuM1DDqEKk09Q==}
     dependencies:
       lie: 3.3.0
       pako: 1.0.11
       readable-stream: 2.3.7
-      set-immediate-shim: 1.0.1
+      setimmediate: 1.0.5
     dev: false
 
   /lie/3.3.0:
@@ -800,8 +800,8 @@ packages:
     resolution: {integrity: sha512-MG5r82wBzh7pSKDRa9y+vllNHz3e3d4CNj1PQE4BQYxLme0gKYYBm9YENq+UkEikyZ0XbiGWxYlVw3Rl9O/U8g==}
     dev: false
 
-  /protobufjs/6.11.2:
-    resolution: {integrity: sha512-4BQJoPooKJl2G9j3XftkIXjoC9C0Av2NOrWmbLWT1vH32GcSUHjM0Arra6UfTsVyfMAuFzaLucXn1sadxJydAw==}
+  /protobufjs/6.11.3:
+    resolution: {integrity: sha512-xL96WDdCZYdU7Slin569tFX712BxsxslWwAfAhCYjQKGTq7dAU91Lomy6nLLhh/dyGhk/YH4TwTSRxTzhuHyZg==}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -816,7 +816,7 @@ packages:
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
       '@types/long': 4.0.2
-      '@types/node': 17.0.33
+      '@types/node': 17.0.35
       long: 4.0.0
     dev: false
 
@@ -856,7 +856,7 @@ packages:
     resolution: {integrity: sha512-Fr9e9LC6zvD6/j7NO8M1M/NVxFX67abHcxDJoP5w2KN/Xb1SyYLjMVPGgD14U2TOiKe4XKHf42OmFw9g2JgCBQ==}
     engines: {node: '>= 10.15.0'}
     dependencies:
-      jszip: 3.9.1
+      jszip: 3.10.0
       tmp: 0.2.1
       ws: 8.6.0
     transitivePeerDependencies:
@@ -864,9 +864,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /set-immediate-shim/1.0.1:
-    resolution: {integrity: sha1-SysbJ+uAip+NzEgaWOXlb1mfP2E=}
-    engines: {node: '>=0.10.0'}
+  /setimmediate/1.0.5:
+    resolution: {integrity: sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=}
     dev: false
 
   /string-width/4.2.3:
